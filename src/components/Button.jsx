@@ -9,9 +9,10 @@ const Button = () => {
         text = "I'm bored!"
         console.log(text);
         setText ('Nice')
+        console.log(text);
     }
 
-    return (<div>
+    return (<div id='remind'>
         <button className={style.button} onClick={onTest} >Submit</button>
         <h1>{text}</h1>
         </div>)
